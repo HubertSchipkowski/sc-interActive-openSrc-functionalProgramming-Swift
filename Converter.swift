@@ -1,5 +1,5 @@
 
-// A tiny Binary to Decimal Converter:
+// A tiny Binary to Decimal Converter to experiment with functional programming:
 
 // (c) Hubert Schipkowski
 // Version: 0.1
