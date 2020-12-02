@@ -22,13 +22,13 @@ func informUser() {
     print("You can input the binary number (e.G. 1010.1101) here:")
 }
 
+func getData() -> String {
+    return ""
+}
+
 func prepareData() {
     proofData(data: getData())
     filterData()
-}
-
-func getData() -> String {
-    return ""
 }
 
 func proofData(data: String) {}
