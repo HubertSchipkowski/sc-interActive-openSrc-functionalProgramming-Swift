@@ -5,20 +5,26 @@
 // Version: 0.1
 // 02.12.20
 
-func run() {
-    prepareData()
+func greet() {
+    print("Hi, this is a little binary to decimal converter.")
+    run()
 }
 
-func prepareData() {
+func run() {
     informUser()
     getData()
-    proofData(data: getData())
-    filterData()
-    separateParts()
+    prepareData()
+    operate()
+    askForMoreAction()
 }
 
 func informUser() {
-    print("Hi, this is a little binary to decimal converter.\nYou can input the binary number (e.G. 1010.1101) here:")
+    print("You can input the binary number (e.G. 1010.1101) here:")
+}
+
+func prepareData() {
+    proofData(data: getData())
+    filterData()
 }
 
 func getData() -> String {
@@ -29,17 +35,32 @@ func proofData(data: String) {}
 
 func filterData() {}
 
-func separateParts() {
+func operate() {
     operateBeforeComma()
     operateBehindComma()
+    giveData()
 }
 
 func operateBeforeComma() {}
 func operateBehindComma() {}
+
 func giveData() {}
 
+func askForMoreAction() {
+    print("Do you want to convert another binary?")
+    let possibleAnswers = ["y","n"]
+    let answer = possibleAnswers.randomElement() ?? "y"
+    if answer == "y" {
+        run()
+    } else {
+        close()
+    }
+}
+
+func close() {}
 
 
-// Action
 
-run()
+// Execute:
+
+greet()
