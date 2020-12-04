@@ -3,7 +3,7 @@
 
 // (c) Hubert Schipkowski
 // Version: 0.1
-// 02.12.20
+// 04.12.20
 
 func greet() {
     print("Hi, this is a little binary to decimal converter.")
@@ -23,7 +23,27 @@ func informUser() {
 }
 
 func getData() -> String {
-    return ""
+    var acceptedCharacters: [Character] = ["0","1","."]
+    var input: String = ""
+    for _ in 0...7 {
+        input.append(acceptedCharacters.randomElement() ?? "0")
+        
+        if input.last == "." {
+            acceptedCharacters.remove(at: 2)
+        }
+    }
+    
+    if input.contains(".") {
+        acceptedCharacters.append(".")
+    }
+    
+    if input.first == "." {
+        input.insert("0", at: input.startIndex)
+    }
+    
+    print("Your input is: \(input)")
+    
+    return input
 }
 
 func prepareData() {
