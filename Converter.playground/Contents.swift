@@ -3,7 +3,7 @@
 
 // (c) Hubert Schipkowski
 // Version: 0.1
-// 04.12.20
+// 08.12.20
 
 func greet() {
     print("Hi, this is a little binary to decimal converter.")
