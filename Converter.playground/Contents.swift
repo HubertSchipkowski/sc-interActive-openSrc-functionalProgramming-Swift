@@ -23,6 +23,9 @@ func informUser() {
 }
 
 func getData() -> String {
+    
+    // Raw data input simulation that exceeds the scope of the accepted characters: To come
+    
     var acceptedCharacters: [Character] = ["0","1","."]
     var input: String = ""
     for _ in 0...7 {
