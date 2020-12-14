@@ -1,5 +1,5 @@
 # sc-interActive-openSrc-functional programming-Swift
- The third repository to explore functional programming with the fp features in Swift.
+ The third repository to explore functional programming with the functional programming features in Swift.
 
  ##### First app 
 
