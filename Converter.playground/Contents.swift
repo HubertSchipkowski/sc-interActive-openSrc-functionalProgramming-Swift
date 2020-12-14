@@ -64,8 +64,12 @@ func operate() {
     giveData()
 }
 
-func operateBeforeComma() {}
-func operateBehindComma() {}
+func operateBeforeComma() {
+    // some math
+}
+func operateBehindComma() {
+    // some math
+}
 
 func giveData() {}
 
