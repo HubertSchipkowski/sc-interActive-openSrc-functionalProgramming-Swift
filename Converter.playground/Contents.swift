@@ -68,7 +68,7 @@ func operateBeforeComma() {
     // some math
 }
 func operateBehindComma() {
-    // some math
+    // some other math
 }
 
 func giveData() {}
