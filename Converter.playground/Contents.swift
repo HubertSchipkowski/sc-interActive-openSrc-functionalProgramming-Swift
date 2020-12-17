@@ -3,7 +3,7 @@
 
 // (c) Hubert Schipkowski
 // Version: 0.1
-// 09.12.20
+// 17.12.20
 
 func greet() {
     print("Hi, this is a little binary to decimal converter.")
@@ -56,7 +56,9 @@ func prepareData() {
 
 func proofData(data: String) {}
 
-func filterData() {}
+func filterData() {
+    // Necessary?
+}
 
 func operate() {
     operateBeforeComma()
