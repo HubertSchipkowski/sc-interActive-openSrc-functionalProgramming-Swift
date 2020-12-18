@@ -13,6 +13,7 @@ func greet() {
 func run() {
     informUser()
     getData()
+    confirmData(input: getData())
     prepareData()
     operate()
     askForMoreAction()
@@ -43,20 +44,22 @@ func getData() -> String {
     if input.first == "." {
         input.insert("0", at: input.startIndex)
     }
-    
-    print("Your input is: \(input)")
-    
     return input
 }
 
-func prepareData() {
-    proofData(data: getData())
-    filterData()
+func confirmData(input: String) {
+    print("Your input is: \(input)")
 }
 
-func proofData(data: String) {}
+func prepareData() {
+    filterData(proofedData: proofData(data: getData()))
+}
 
-func filterData() {
+func proofData(data: String) -> String {
+    return data
+}
+
+func filterData(proofedData: String) {
     // Necessary?
 }
 
@@ -86,7 +89,9 @@ func askForMoreAction() {
     }
 }
 
-func close() {}
+func close() {
+    print("Thanks and Good Bye!")
+}
 
 
 
