@@ -3,7 +3,10 @@
 
 // (c) Hubert Schipkowski
 // Version: 0.1
-// 05.01.21
+// 06.01.21
+
+// Next Step: Documentation and Refactoring
+
 
 import Foundation
 
