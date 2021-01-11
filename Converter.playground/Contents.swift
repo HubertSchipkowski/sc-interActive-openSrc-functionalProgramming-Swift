@@ -5,7 +5,7 @@
 // Version: 0.1
 // 06.01.21
 
-// Next Step: Documentation and Refactoring
+// Next Step: Documentation and Refactoring, especially regarding unnecessary or too complex functions:
 
 
 import Foundation
