@@ -6,7 +6,7 @@
 // 06.01.21
 
 // Next Step: Documentation
-// Refactoring, especially regarding unnecessary or too complex functions
+// Refactoring, especially regarding unnecessary or too complex functions, first visually:
 
 
 import Foundation
