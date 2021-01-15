@@ -14,7 +14,7 @@
 
 - Data-In
 
-- Function tree
+- Possibly (mutual) recursive Function tree
 
 - Data-Out 
 
