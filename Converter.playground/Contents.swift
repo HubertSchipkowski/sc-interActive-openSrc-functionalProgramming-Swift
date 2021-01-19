@@ -5,7 +5,7 @@
 // Version: 0.1
 // 06.01.21
 
-// Next Step: Documentation
+// Next Step: Visual Documentation
 // Refactoring, especially regarding unnecessary or too complex functions, first visually:
 
 
