@@ -205,7 +205,7 @@ func close() {
 
 
 
-// Execute:
+// Execute from the top of the tree:
 
 greet()
 
