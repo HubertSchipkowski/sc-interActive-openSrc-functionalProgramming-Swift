@@ -5,8 +5,8 @@
 // Version: 0.1
 // 06.01.21
 
-// Next Step: Visual Documentation
-// Refactoring, especially regarding unnecessary or too complex functions, probably at first visually:
+// Next Step: Visual Documentation of the function tree
+// Refactoring, especially regarding unnecessary or too complex functions:
 
 
 import Foundation
