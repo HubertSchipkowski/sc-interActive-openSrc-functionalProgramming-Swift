@@ -5,7 +5,7 @@
 // Version: 0.1
 // 06.01.21
 
-// Next Step: Visual Documentation of the function tree
+// Next Step: Visual Documentation of the function tree | Have researched Category Theory/Functors/Monads
 // Refactoring, especially regarding unnecessary or too complex functions:
 
 
